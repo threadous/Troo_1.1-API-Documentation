@@ -1,7 +1,7 @@
-# Troo 1.1 Documentation
+# Troo 1.1 Documentation 
 
 ## Introduction
-Troo is a ROBLOX plugin and instant command panel that makes adding items to ROBLOX Studio much easier. It would be faster and efficient to type in a simple easy to remember command to create a script for example rather than do it the classic way. 
+Troo is a ROBLOX plugin and instant command panel that makes adding items to ROBLOX Studio much easier. It would be faster and efficient to type in a simple easy to remember command to create a script for example rather than do it the classic way. Utilizes Luau programming language.
 
 For example, instead of following the classical method to add a script to workspace and naming it `TrooTest`, it would be much easier to use the command `wscript/TrooTest`. As you can see `w` is the parent `workspace`, the second argument is the class, in this case `script`, and the third argument is the name `TrooTest`. A prefix `/` is used to indicate the name. 
 
