@@ -84,14 +84,24 @@ Instead of using two different commands to create a folder and then parent somet
 
 In this case, the example shows the addition of 3 children to the folder namemly, `MyScript`, `PetHandler` and `RemoteEvent`. They are divided by `:`. Caution is recommended before proceeding with this command as it will parent anything that has the same name given into the folder. Most actions are irreversible.
 
-<h3>Adding Children To A Pre-Existing Folder</h3>
-
-To parent children to a pre-existing folder, the following command can be used. Make sure that the names are unique and identify to only 1 object. <br>
-
-• `Events MyScript:PetHandler:RemoteEvent` <br>
-
-In the case of this command, `Events` is the parent and the arguments that come after the space are the children which will be parented after execution.
-
-<h3>Removing An Object From A Folder</h3>
+<h3>Removing And Adding An Object From A Folder</h3>
 
 The current version of Troo does not support this feature yet, it may be introduced in the future.
+
+<h3>Creating A Remote Event</h3>
+
+You may use the Parenting Index provided as the first argument. <br>
+
+• `repS re/PetEvent` <br>
+
+<h3>Creating A Remote Function</h3>
+
+• `repS rf/NewFunction` <br>
+
+<h3>Creating A Module Script</h3>
+
+• `repS module/PetModule` <br>
+
+## Troo 1.1
+
+Troo 1.1 was created on June 23rd, 2022 for the usage of all commercial and non-profit **creations**. <br>
