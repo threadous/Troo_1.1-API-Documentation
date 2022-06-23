@@ -12,40 +12,40 @@ Whenever using these commands, the parent parameter will always be a `Service`, 
 
 <h3>Creating A Script For Workspace</h3>
 
-• `wcript/TrooTest` <br>
+• `w.script/TrooTest` <br>
 • The following command creates a new script in workspace called `TrooTest`
 
 <h3>Creating A Scipt For Players</h3>
 
-• `pscript/TrooTest` <br>
+• `p.script/TrooTest` <br>
 • The following command creates a new script in Players called `TrooTest`
 
 <h3>Creating A Script In Lighting</h3>
 
-• `liscript/LightingScript` <br>
+• `li.script/LightingScript` <br>
 • The following command creates a new script in Lighting called `LightingScript`
 
 <h3>Creating A LOCAL Script In Replicated First/Storage</h3>
 
-• `repFlscript/MyScript` <br>
+• `repF.lscript/MyScript` <br>
 • The following command creates a new script in Replicated First called `MyScript` <br>
 🔑 The parent command is `repF`, denoting `Replicated` (rep) and `First` (F) and the class is a local script, so is the reason for `lscript`. Use `repS` for Replicated Storage
 
 <h3>Creating A Script In Server Script Service</h3>
 
-• `serverscript/MyScript`
+• `server.script/MyScript`
 
 <h3>Creating A Script In Server Storage</h3>
 
-• `sstoragescript/MyScript`
+• `sstorage.script/MyScript`
 
 <h3>Creating A Local Script In StarterGui</h3>
 
-• `GUIlscript/MyScript`
+• `GUI.lscript/MyScript`
 
 <h3>Creating A Script In StarterPack</h3>
 
-• `spscript/ToolScript`
+• `sp.script/ToolScript`
 
 <h3>Other Services</h3>
 
