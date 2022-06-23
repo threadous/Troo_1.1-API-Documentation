@@ -1,16 +1,52 @@
-# Troo 1.1 Documentation 
+# Troo 1.1 API Documentation
 
-## Introduction
-Troo is a ROBLOX plugin and instant command panel that makes adding items to ROBLOX Studio much easier. It would be faster and efficient to type in a simple easy to remember command to create a script for example rather than do it the classic way. Utilizes Luau programming language.
+## Script Commands
 
-For example, instead of following the classical method to add a script to workspace and naming it `TrooTest`, it would be much easier to use the command `wscript/TrooTest`. As you can see `w` is the parent `workspace`, the second argument is the class, in this case `script`, and the third argument is the name `TrooTest`. A prefix `/` is used to indicate the name. 
+This section contains commands to create a script, parent and name it. <br></br>
+All script commands follow the same format and order `parent.class.name`. **TO ADD LOCAL SCRIPT INSTEAD OF A REGULAR SCRIPT, USE `lscript` AS CLASS INSTEAD OF JUST `script`** <br>
+A **name** parameter is **mandatory**
 
-## Benefits Of Using Troo
-Memorizing commands is not as hard as it looks. Most commands use the same format as the example given above i.e. `[PARENT][CLASS][NAME]` unless it applies to building utilities such as `BaseParts` etc. 
+<h3>QUICK TIPS</h3>
 
-## Permits
-All users are permitted to **only** __use__ this plugin in any way but nobody is permitted to re-make this plugin, which includes any adjustments.
+Whenever using these commands, the parent parameter will always be a `Service`, such as `ServerScriptService`, `ReplicatedStorage` etc. When denoting them in the parent parameter, if the service is only one word, it is usually denoted by its starting letter. If the service contains more than one word, the parameter is usually the short form. If it does not work, please review the full API Documentation below for the correct command. 
 
-## Credited Developers
-• This plugin was created by @Kryptoscythe (ROBLOX). <br>
-• Business Email : laferrarivih@gmail.com
+<h3>Creating A Script For Workspace</h3>
+
+• `w.script/TrooTest` <br>
+• The following command creates a new script in workspace called `TrooTest`
+
+<h3>Creating A Scipt For Players</h3>
+
+• `p.script/TrooTest` <br>
+• The following command creates a new script in Players called `TrooTest`
+
+<h3>Creating A Script In Lighting</h3>
+
+• `li.script/LightingScript` <br>
+• The following command creates a new script in Lighting called `LightingScript`
+
+<h3>Creating A LOCAL Script In Replicated First/Storage</h3>
+
+• `repF.lscript/MyScript` <br>
+• The following command creates a new script in Replicated First called `MyScript` <br>
+🔑 The parent command is `repF`, denoting `Replicated` (rep) and `First` (F) and the class is a local script, so is the reason for `lscript`. Use `repS` for Replicated Storage
+
+<h3>Creating A Script In Server Script Service</h3>
+
+• `server.script/MyScript`
+
+<h3>Creating A Script In Server Storage</h3>
+
+• `sstorage.script/MyScript`
+
+<h3>Creating A Local Script In StarterGui</h3>
+
+• `GUI.lscript/MyScript`
+
+<h3>Creating A Script In StarterPack</h3>
+
+• `sp.script/ToolScript`
+
+<h3>Other Services</h3>
+
+Troo Version 1.1 is compatible with the above Services only.
