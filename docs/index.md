@@ -91,3 +91,7 @@ To parent children to a pre-existing folder, the following command can be used. 
 • `Events MyScript:PetHandler:RemoteEvent` <br>
 
 In the case of this command, `Events` is the parent and the arguments that come after the space are the children which will be parented after execution.
+
+<h3>Removing An Object From A Folder</h3>
+
+The current version of Troo does not support this feature yet, it may be introduced in the future.
